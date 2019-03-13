@@ -1,0 +1,22 @@
+p{
+  text-align: center;
+  font-size: 50px;
+}
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  padding: 50px;
+  width: 100%;
+  height: auto;
+}
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
