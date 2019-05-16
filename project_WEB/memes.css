@@ -12,11 +12,12 @@ div.gallery:hover {
 
 div.gallery img {
   padding: 50px;
-  width: 100%;
+  width: 70%;
   height: auto;
 }
 .responsive {
-  padding: 0 6px;
+  /* padding: 5px 6px; */
+  padding-left: -50px;
   float: left;
   width: 24.99999%;
 }

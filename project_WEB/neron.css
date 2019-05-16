@@ -1,0 +1,42 @@
+#container {
+    margin-top: 0px;
+    margin-left: 50px;
+}
+
+.dog-head {
+  z-index: 100;
+  -webkit-animation: head-move 1s ease-in-out infinite;
+}
+
+div.dog-body {
+  height: 300px;
+  width: 225px;
+  margin-top: -175px;
+  margin-left: 40px;
+  background-image: url('http://www.clker.com/cliparts/T/0/9/J/e/4/dog-body-md.png');
+  background-repeat: no-repeat;
+}
+
+
+
+/*ANIMATIONS
+---------------------------------------------------------*/
+
+@-webkit-keyframes head-move {
+  50% { 
+    -webkit-transform: rotate(-1.5deg); 
+  }
+}
+
+/*  */
+.flex-container {
+  display: flex;
+}
+
+.flex-container > div {
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}
+/*  */
+
